@@ -1,0 +1,17 @@
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .page {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+  }
+}
