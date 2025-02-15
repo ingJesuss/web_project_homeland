@@ -3,6 +3,7 @@
   justify-content: center;
   height: 16px;
   padding-bottom: 24px;
+  font-family: int;
 }
 
 @media screen and (max-width: 768px) {
@@ -10,7 +11,7 @@
     margin: 0 287px 24px;
     width: 194px;
     height: 16px;
-    font-family: "Inter";
+    font-family: 'Inter',Arial,sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
