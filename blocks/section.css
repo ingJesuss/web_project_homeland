@@ -1,16 +1,16 @@
 .section {
   display: flex;
   flex-direction: column;
+  justify-self: center;
+  position: relative;
   margin: 0 0 92px;
+  margin-left: -140px;
   width: 100%;
   max-width: 830px;
-  padding-left: 180px;
-  padding-right: 302px;
   height: 100%;
 }
 .section__title {
   width: 100%;
-  max-width: 1280px;
   height: 174px;
   margin: 0 0 40px;
   font-family: "Inter";
@@ -48,11 +48,31 @@
   line-height: 1.5;
 }
 
+/* seccion 2 */
+.gallery{
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin: 38px 0 62px;
+}
+.gallery__container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 12px 0;
+}
+.gallery__image{
+  width: 100%;
+}
+
+/* Media qery seccion 1 */
 @media screen and (max-width: 1024px) {
   .section {
     padding: 0 50px 0;
     box-sizing: border-box;
     width: 100%;
+    margin-left: 0;
     max-width: 1024px;
     height: 100%;
   }
@@ -61,6 +81,7 @@
 @media screen and (max-width: 768px) {
   .section {
     padding: 0 24px 0;
+    margin-left: 0;
     box-sizing: border-box;
     width: 100%;
     max-width: 768px;
@@ -98,7 +119,7 @@
   }
   .section__text-other {
     width: 100%;
-    height: auto /* 182px */;
+    height: auto;
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
     font-weight: 400;
@@ -188,4 +209,40 @@
     font-size: 18px;
     line-height: 1.5;
   }
+}
+
+/* break point para seccion 2 */
+@media screen and (min-width:768px) {
+  .gallery{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;    
+    padding-right: 24px;
+    padding-left: 24px;  
+    margin: 64px 0 88px;
+  }
+ .gallery__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    
+  }
+  .gallery__image{
+    width: 100%;
+  }
+   
+}
+@media screen and (min-width:1280px) {
+  .gallery{
+    padding-left: 43px;
+    padding-right: 53px;
+    margin: 118px 0 92px;
+  }
+  .gallery__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:16px ;
+  }
+  
 }
