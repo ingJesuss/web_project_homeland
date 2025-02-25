@@ -24,7 +24,8 @@
   display: flex;
   width: 720px;
   margin: 0 0 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
+    font-weight: 900;
   font-weight: 900;
   font-size: 96px;
   line-height: 1;
@@ -133,3 +134,8 @@
     margin: 0;
   }
 }
+
+
+
+
+
