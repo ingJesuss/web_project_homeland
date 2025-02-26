@@ -29,13 +29,15 @@
     .gallery__container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      margin: auto;
       gap: 16px;
-      max-width: 1184px;
+      max-width: 1184px;      
     }
     .gallery__image {
       width: 100%;
     }
   }
+  
   @media screen and (min-width: 1280px) {
     .gallery {
       position: relative;
