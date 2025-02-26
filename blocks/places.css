@@ -24,7 +24,6 @@
     gap: 48px 28px;
   }
 }
-
 /* breack point 1280 places */
 @media screen and (min-width: 1280px) {
   .places {
