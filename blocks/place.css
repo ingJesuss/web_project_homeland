@@ -44,7 +44,7 @@
     height: 48px;
     margin: 5px 16px 50px;
     padding: 0;
-    background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
     text-decoration: none;
     color: #fff;
     font-family: "Inter", Arial, sans-serif;
@@ -122,7 +122,7 @@
       height: 48px;
       margin: 0;
       padding: 0;
-      background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+      background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
       text-decoration: none;
       color: #fff;
       font-family: "Inter", Arial, sans-serif;
@@ -169,7 +169,7 @@
     }
     .place__image {
       width: 100%;
-      height: anto;
+      height: auto;
       box-shadow: 10px 10px 25px 0px #00000080;
     }
     .place__image--s {
@@ -201,7 +201,7 @@
       padding: 0;
       border: 0;
       margin-top: 48px;
-      background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+      background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
       text-decoration: none;
       color: #fff;
       font-family: "Inter", Arial, sans-serif;
